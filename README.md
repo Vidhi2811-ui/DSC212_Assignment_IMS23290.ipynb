@@ -7,10 +7,12 @@ We will:
 2.Implement the spectral bisection algorithm, which recursively splits communities to maximize modularity.
 3.Track the evolution of four key centrality metrics (Degree, Betweenness, Closeness, and Clustering) for each node across all splits.
 4.Visualize the community splits and the metric evolution to understand how a node's role changes as its community is refined.
+
 !pip install \
     --trusted-host pypi.org \
     --trusted-host files.pythonhosted.org \
     networkx numpy matplotlib
+    
 Requirement already satisfied: networkx in ./lib/python3.13/site-packages (3.5)
 Requirement already satisfied: numpy in ./lib/python3.13/site-packages (2.3.4)
 Requirement already satisfied: matplotlib in ./lib/python3.13/site-packages (3.10.7)
